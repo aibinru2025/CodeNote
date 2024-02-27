@@ -1,2 +1,2 @@
 # CodeNote
-Record my java code node.
+Record my java code note.
