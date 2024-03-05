@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    #gulimall_oms test_db
+    url: jdbc:mysql://139.224.248.106:3306/test_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: ywy123abr
+  rabbitmq:
+    host: 139.224.248.106
+    port: 5672
+    username: guest
+    password: guest
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
