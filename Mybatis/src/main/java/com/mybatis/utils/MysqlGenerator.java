@@ -1,4 +1,4 @@
-//package com.mybatis.utils;
+package com.mybatis.utils;//package com.mybatis.utils;
 //
 //
 //import com.baomidou.mybatisplus.core.toolkit.StringPool;
