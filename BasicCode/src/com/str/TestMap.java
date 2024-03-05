@@ -1,4 +1,4 @@
-package cmo.stream.demo01;
+package com.str;
 
 import java.util.List;
 import java.util.stream.Collectors;

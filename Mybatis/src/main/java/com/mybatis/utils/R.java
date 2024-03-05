@@ -24,6 +24,9 @@ public class R extends HashMap<String, Object> {
         put("msg", "success");
     }
 
+    public R(int i, String s) {
+    }
+
     public static R error() {
         return error(HttpStatus.SC_INTERNAL_SERVER_ERROR, "未知异常，请联系管理员");
     }

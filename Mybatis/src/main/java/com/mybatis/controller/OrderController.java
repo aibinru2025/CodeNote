@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 
@@ -50,6 +51,17 @@ public class OrderController {
 
         return R.ok().put("order", order);
     }
+
+    /**
+     *
+     */
+    @RequestMapping("/info/array")
+    public R infoAll(@RequestBody Long[] ids){
+        OrderEntity orderEntity = orderService.getById(ids[0]);
+        //OrderEntity order = orderService.removeByIds(ids);
+        return R.ok().put("order",orderEntity);
+    }
+
 
     /**
      * 保存

@@ -1,4 +1,4 @@
-package cmo.stream.demo01;
+package com.str;
 
 /**
  * @author:艾宾如
